@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo "Cloning code..."
-                git 'https://github.com/YOUR-USERNAME/healthcare-app.git'
+                git 'https://github.com/SpandanDuari/healthcare-app.git'
             }
         }
 
